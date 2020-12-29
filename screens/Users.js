@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import ListItem from '../components/ListItem'
 
-const users = [
-    {id: '1', name: 'Lian'},
-    {id: '2', name: 'Ervin'},
-]
 export default ({ navigation }) => {
 
   const [ loading, setLoading ] = useState(true)
